@@ -6,7 +6,8 @@ namespace OddEven
     {
         public static string Print(int number)
         {
-            return "Odd";
+            var result = number % 2 == 0 ? "Even" : "Odd";
+            return result;
         }
     }
 }
